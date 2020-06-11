@@ -10,7 +10,4 @@ A test for if different folders can have different 404s.
   Running:
   
   Using Javascript and pathname to get the folder, create unused .txt files so that the folders don't delete themseleves.
-  
-  # So far
-  
-  Had to
+
