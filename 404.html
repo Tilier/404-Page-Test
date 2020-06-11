@@ -1,0 +1,54 @@
+---
+permalink: /404.html
+---
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/png" href="https://i.ibb.co/KrjFYVc/Designs-7-3.png">
+        <title>404 Error</title>
+        <link href=about.css rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        
+    </body>
+    
+    var path = window.location.pathname;
+    var if = path.includes('testtwo/')
+    if (if) {
+      var element = `<div class="what" id="what">
+            <div class="what-c">
+                <h1>404 Error.</h1>
+                <p>Looks like you've reached a page that doesn't exist.</p>
+                <div class="home">
+                    <a href="https://tilier.github.io/UIWars/"><button href="index.html" class="backhome">Go back home</button></a>
+                </div>
+            </div>
+            <div class="img">
+                
+            </div>
+        </div>
+        `
+    } else {
+      var element = `<div class="what" id="what">
+            <div class="what-c">
+                <h1>Testing testing</h1>
+                <p>Looks like you've reached a page that doesn't exist.</p>
+                <div class="home">
+                    <a href="https://tilier.github.io/UIWars/"><button href="index.html" class="backhome">Go back home</button></a>
+                </div>
+            </div>
+            <div class="img">
+                
+            </div>
+        </div>
+        `
+    }
+    
+    console.log(if);
+    console.log(element);
+</html>
