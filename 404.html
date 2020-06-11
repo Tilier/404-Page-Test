@@ -49,7 +49,7 @@ permalink: /404.html
     console.log(n);
     console.log(element);
             console.log(path);
-            document.body.prepend(element);
+            document.body.innerHTML = element + document.body.innerHTML;
         </script>
     </body>
 </html>
