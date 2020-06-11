@@ -8,6 +8,6 @@ A test for if different folders can have different 404s.
   
 # Test 2:
   It works!
-  I mixed the two up but that is okay!!!!!! Yeah baby!
+  Now just trying to display the variable *element*. Yeah baby!
   
   Using Javascript and pathname to get the folder, create unused .txt files so that the folders don't delete themseleves.
