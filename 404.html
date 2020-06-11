@@ -15,7 +15,7 @@ permalink: /404.html
     <body>
         <script>
         var path = window.location.pathname;
-    var n = path.includes('testtwo/');
+    var n = path.includes('testone/');
     if (n) {
       var element = `<div class="what" id="what">
             <div class="what-c">
@@ -49,6 +49,7 @@ permalink: /404.html
     console.log(n);
     console.log(element);
             console.log(path);
+            document.body.append(element);
         </script>
     </body>
 </html>
