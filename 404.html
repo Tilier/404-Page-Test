@@ -29,6 +29,7 @@ permalink: /404.html
             <div class="img">
                 
             </div>
+            <iframe name="site" id="site" height="900" width="750"></iframe>
         </div>
         `
     } else {
@@ -51,6 +52,7 @@ permalink: /404.html
     console.log(element);
             console.log(path);
             document.body.innerHTML = element + document.body.innerHTML;
+            document.getElementById("site").src = "http://scratch.mit.edu" + path.replace("/404-Page-Test",""); + "embed";
         </script>
     </body>
 </html>
