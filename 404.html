@@ -48,11 +48,12 @@ permalink: /404.html
         `
     }
     
+            var hrefvar = window.location.href;
     console.log(n);
     console.log(element);
             console.log(path);
             document.body.innerHTML = element + document.body.innerHTML;
-            document.getElementById("site").src = "http://scratch.mit.edu" + path.replace("/404-Page-Test",""); + "embed";
+            document.getElementById("site").src = "https://scratch.mit.edu/projects/" + hrefvar.replace("https://tilier.github.io/404-Page-Test/testone",""); + "/embed";
         </script>
     </body>
 </html>
