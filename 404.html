@@ -16,6 +16,8 @@ permalink: /404.html
     <body>
         <script>
         var path = window.location.pathname;
+            clear();
+        window.setInterval(clear, 500);
     var n = path.includes('testone/');
     if (n) {
       var element = `<div class="what" id="what">
@@ -54,6 +56,10 @@ permalink: /404.html
             console.log(path);
             document.body.innerHTML = element + document.body.innerHTML;
             document.getElementById("site").src = "https://scratch.mit.edu/projects" + hrefvar.replace("https://tilier.github.io/404-Page-Test/testone","") + "/embed";
+            
+            function clear() {
+                console.clear();   
+            }
         </script>
     </body>
 </html>
